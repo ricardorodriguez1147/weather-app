@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Cleanup from './components/cleanup/cleanup'
+import Cleanup from './components/cleanup/Cleanup'
 import Weather from './components/weather/Weather'
 import './App.css'
 
@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-      <div className='container'> 
-  
-      <Weather />
+      <div className='container'>
+
+        <Weather />
 
         {/* <button type="button" onClick={()=> setIsshow(!isShow)}>
           Cambiar
